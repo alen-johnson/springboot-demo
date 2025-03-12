@@ -10,14 +10,7 @@ A simple RESTful API built with **Spring Boot** and **MongoDB**, demonstrating b
 
 ### **Setup & Run**
 1. Clone the repository:
-   ```sh
-   git clone <repo-url>
-   cd <project-folder>
-   ```
 2. Configure **application.properties** with MongoDB connection:
-   ```properties
-   spring.data.mongodb.uri=mongodb://localhost:27017/your_db
-   ```
 3. Run the application:
    ```sh
    mvn spring-boot:run
@@ -41,5 +34,3 @@ POST /api/employees
 }
 ```
 
-### **License**
-This project is open-source and free to use.

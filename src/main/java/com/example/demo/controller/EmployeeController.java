@@ -47,7 +47,6 @@ public class EmployeeController {
             if (updatedEmployee.getDepartment() != null) {
                 employee.setDepartment(updatedEmployee.getDepartment());
             }
-            // Add more fields as needed
 
             Employee savedEmployee = employeeRepository.save(employee);
             return ResponseEntity.ok(savedEmployee);
